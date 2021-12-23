@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Main menu" timestamp="2021-12-05T19:54:34" time="122.835" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Main menu"/>
+      <property name="capabilities" value="f3843b6.android.10"/>
+      <property name="featureFile" value=".\features\main-menu.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.Main menu" name="Check links" time="122.803">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ When I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'Fantasy Football' link✅ Then I expect to see loading screen
+✅ And I expect to see 'Fantasy Football' screen✅ When I click Main menu icon 'Fantasy Football' button✅ Then I expect to see main menu✅ When I click 'Goal of the Week' link✅ Then I expect to see 'Goal of the Week' screen✅ When I click Main menu icon 'Goal of the Week' button✅ Then I expect to see main menu✅ When I click 'Predictor' link✅ Then I expect to see loading screen
+✅ And I expect to see 'Predictor' main screen✅ When I click Main menu icon 'Predictor' button✅ Then I expect to see main menu✅ When I click 'Player of the Week' link✅ Then I expect to see 'Player of the Week' screen✅ When I click Main menu icon 'Player of the Week' button✅ Then I expect to see main menu✅ When I click 'Gaming Hub home' link✅ Then I expect to see Home screen
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

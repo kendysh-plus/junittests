@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UCL_Bracket" timestamp="2021-03-31T23:44:01" time="111.41" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="UCL Bracket"/>
+      <property name="capabilities" value="plegar2761411718.android.9.gaminghub-release_apk"/>
+      <property name="featureFile" value=".\features\ucl-bracket.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-plegar2761411718.android.9.gaminghub-release_apk.UCL_Bracket" name="UCL_Bracket.Edit_pick" time="111.312">
+      <system-out>
+        <![CDATA[
+✅ Given I am Authorized user
+✅ When I click 'Main menu icon' button
+✅ And I click 'UCL Bracket' link
+✅ Then I expect to see loading screen
+✅ And I expect to see 'UCL Bracket' screen
+✅ Given I click 'Edit UCL' button
+✅ When I focus 'Quater-finals' section
+✅ And I click on second team on each block in 'Quater-finals' column
+✅ Then I expect to see that 4 teams are selected
+✅ When I swipe to the 'Semi-finals' column
+✅ Then I expect to see all the selected commands added
+✅ When I click on second teams on both blocks in 'Semi-finals' column
+✅ Then I expect to see that 2 teams are selected
+✅ When I swipe to the 'Final' column
+✅ Then I expect to see all the selected commands added
+✅ When I click on second team
+✅ Then I expect to see message box 'Your bracket is ready to save!'
+✅ When I click 'Save UCL' button
+✅ Then I expect to see 'confirmation' popup
+✅ And I expect to see 'Your bracket' screen
+
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User Login" timestamp="2021-11-09T09:34:05" time="177.213" tests="2" failures="2" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User Login"/>
+      <property name="capabilities" value="56e11b70.android.11.gaminghub-release%20%281%29-ff80a470-412c-11ec-9d0f-2fc3c01317b8_apk"/>
+      <property name="featureFile" value=".\features\user-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-56e11b70.android.11.gaminghub-release%20%281%29-ff80a470-412c-11ec-9d0f-2fc3c01317b8_apk.User Login" name="Login with Email and Password" time="129.519">
+      <failure message="Error: Can't call clearValue on element with selector &quot;//*[@resource-id=&quot;gigya-loginID-75579930407612940&quot;]&quot; because element wasn't found"><![CDATA[Error: Can't call clearValue on element with selector "//*[@resource-id="gigya-loginID-75579930407612940"]" because element wasn't found
+    at implicitWait (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:20:29)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.clearValue (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.clearText (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:94:20)
+    at uefaAppPage.enterEmail (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:759:30)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:10:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73]]></failure>
+      <error message="Error: Can't call clearValue on element with selector &quot;//*[@resource-id=&quot;gigya-loginID-75579930407612940&quot;]&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen❗ When I enter "kobiton1@mailinator.com" as an Email⚠️ And I enter "Test123456!" as a Password
+⚠️ And I click 'Submit' button
+⚠️ Then I expect to see 'Home page' screen
+⚠️ When I click 'Main menu icon' button
+⚠️ Then I expect to see my Username
+⚠️ And should be logged in the system
+
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call clearValue on element with selector "//*[@resource-id="gigya-loginID-75579930407612940"]" because element wasn't found
+    at implicitWait (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:20:29)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.clearValue (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.clearText (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:94:20)
+    at uefaAppPage.enterEmail (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:759:30)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:10:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73
+]]></system-err>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-56e11b70.android.11.gaminghub-release%20%281%29-ff80a470-412c-11ec-9d0f-2fc3c01317b8_apk.User Login" name="Login with Email and Password" time="47.652">
+      <failure message="Error: element (&quot;~Navigate up&quot;) still not displayed after 10000ms"><![CDATA[Error: element ("~Navigate up") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitAndClick (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:58:24)
+    at uefaAppPage.clickButton (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:366:22)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:6:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73]]></failure>
+      <error message="Error: element (&quot;~Navigate up&quot;) still not displayed after 10000ms"/>
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app❗ And I click 'Main menu icon' button⚠️ When I click 'Log in' button
+⚠️ Then I expect to see 'Log In' screen
+⚠️ When I enter "kobiton2@mailinator.com" as an Email
+⚠️ And I enter "Test123456!" as a Password
+⚠️ And I click 'Submit' button
+⚠️ Then I expect to see 'Home page' screen
+⚠️ When I click 'Main menu icon' button
+⚠️ Then I expect to see my Username
+⚠️ And should be logged in the system
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("~Navigate up") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitAndClick (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:58:24)
+    at uefaAppPage.clickButton (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:366:22)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:6:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

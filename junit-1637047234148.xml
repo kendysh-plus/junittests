@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User profile" timestamp="2021-11-16T09:20:43" time="254.676" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User profile"/>
+      <property name="capabilities" value="f3843b6.android.10"/>
+      <property name="featureFile" value=".\features\user-profile.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Edit Username" time="89.082">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I click 'Edit' button✅ Then I expect to see 'Edit profile' screen✅ When I click 'Pencil icon' button✅ And I delete my username✅ And I enter "newnickname" as new username✅ And I click 'Done' button✅ And I expect the Username to be changed to "newnickname"
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Change avatar" time="86.767">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I click 'Edit' button✅ Then I expect to see 'Edit profile' screen✅ When I click 'Change avatar' button✅ Then I expect to see 'Change your avatar' screen✅ When I click on new avatar✅ Then I expect to see Profile screen with new avatar
+✅ And I expect to see message box 'Avatar updated'
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Check tabs" time="78.766">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I scroll down to the main tab✅ Then I expect to see 'Overview' tab✅ When I scroll tabs to the last elements
+✅ Then I expect to see 'Achievements' tab✅ And I expect to see 'Badges' tab✅ And I expect to see 'XP leaderboard' tab✅ When I click 'Achievements' tab✅ Then I expect to see 'Recently unlocked' subtab✅ And I expect to see 'Fantasy Football' subtab✅ When I scroll subtabs to the last elements
+✅ Then I expect to see 'Predictor' subtab
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

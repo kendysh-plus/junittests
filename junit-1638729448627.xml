@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User Login" timestamp="2021-12-05T20:38:36" time="205.96" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User Login"/>
+      <property name="capabilities" value="520064fec082b4ef.android.9.gaminghub-release%20%281%29-b623f870-4b6a-11ec-900b-b9985812c756_apk"/>
+      <property name="featureFile" value=".\features\user-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-520064fec082b4ef.android.9.gaminghub-release%20%281%29-b623f870-4b6a-11ec-900b-b9985812c756_apk.User Login" name="Login with Email and Password" time="104.983">
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen✅ When I enter "kobiton1@mailinator.com" as an Email✅ And I enter "Test123456!" as a Password✅ And I click 'Submit' button✅ Then I expect to see 'Home page' screen✅ When I click 'Main menu icon' button✅ Then I expect to see my Username✅ And should be logged in the system
+
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-520064fec082b4ef.android.9.gaminghub-release%20%281%29-b623f870-4b6a-11ec-900b-b9985812c756_apk.User Login" name="Login with Email and Password" time="100.947">
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen✅ When I enter "kobiton2@mailinator.com" as an Email✅ And I enter "Test123456!" as a Password✅ And I click 'Submit' button✅ Then I expect to see 'Home page' screen✅ When I click 'Main menu icon' button✅ Then I expect to see my Username✅ And should be logged in the system
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

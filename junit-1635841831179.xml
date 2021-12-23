@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User Failed Login" timestamp="2021-11-02T10:31:33" time="108.877" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User Failed Login"/>
+      <property name="capabilities" value="rfcn106h31n.android.11.gaminghub-release-f2760010-3af9-11ec-98fd-53e0599f5d4e_apk"/>
+      <property name="featureFile" value=".\features\user-failed-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-rfcn106h31n.android.11.gaminghub-release-f2760010-3af9-11ec-98fd-53e0599f5d4e_apk.User Failed Login" name="Failed Login with Email and Password" time="108.815">
+      <failure message="Error: element (&quot;~Navigate up&quot;) still not displayed after 10000ms"><![CDATA[Error: element ("~Navigate up") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitAndClick (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:58:24)
+    at uefaAppPage.clickButton (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:366:22)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:6:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73]]></failure>
+      <error message="Error: element (&quot;~Navigate up&quot;) still not displayed after 10000ms"/>
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app❗ And I click 'Main menu icon' button⚠️ When I click 'Log in' button
+⚠️ Then I expect to see 'Log In' screen
+⚠️ When I enter "Dinechka70@gmail.com" as an Email
+⚠️ And I enter "FalsePS" as a Password
+⚠️ And I click 'Submit' button
+⚠️ Then I expect to see "Invalid login or password"
+⚠️ When I delete data from fields 'Email', 'Password'
+⚠️ And I enter "test@falsemail.com" as an Email
+⚠️ And I enter "#Denis2216" as a Password
+⚠️ And I click 'Submit' button
+⚠️ Then I expect to see "Invalid login or password"
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("~Navigate up") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitAndClick (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:58:24)
+    at uefaAppPage.clickButton (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:366:22)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/when.steps.js:6:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

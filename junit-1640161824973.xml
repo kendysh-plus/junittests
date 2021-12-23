@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User Failed Login" timestamp="2021-12-22T10:31:19" time="206.436" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User Failed Login"/>
+      <property name="capabilities" value="f630e43e.android.10.gaminghub-release-8b2e31a0-62f6-11ec-9ca5-fd036d118cce_apk"/>
+      <property name="featureFile" value=".\features\user-failed-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f630e43e.android.10.gaminghub-release-8b2e31a0-62f6-11ec-9ca5-fd036d118cce_apk.User Failed Login" name="Failed Login with Email and Password" time="206.406">
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen✅ When I enter "Dinechka70@gmail.com" as an Email✅ And I enter "FalsePS" as a Password✅ And I click 'Submit' button✅ Then I expect to see "Invalid login or password"✅ When I delete data from fields 'Email', 'Password'✅ And I enter "test@falsemail.com" as an Email✅ And I enter "#Denis2216" as a Password✅ And I click 'Submit' button✅ Then I expect to see "Invalid login or password"
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

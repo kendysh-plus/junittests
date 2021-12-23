@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User Login" timestamp="2021-12-05T18:18:25" time="0.098" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User Login"/>
+      <property name="capabilities" value="f3843b6.android.10"/>
+      <property name="featureFile" value=".\features\user-login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User Login" name="Login with Email and Password" time="0.046">
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen✅ When I enter "kobiton1@mailinator.com" as an Email✅ And I enter "Test123456!" as a Password✅ And I click 'Submit' button✅ Then I expect to see 'Home page' screen✅ When I click 'Main menu icon' button✅ Then I expect to see my Username✅ And should be logged in the system
+
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User Login" name="Login with Email and Password" time="0.018">
+      <system-out><![CDATA[
+✅ Given I am Anonymous
+✅ Given I launch the app✅ And I click 'Main menu icon' button✅ When I click 'Log in' button✅ Then I expect to see 'Log In' screen✅ When I enter "kobiton2@mailinator.com" as an Email✅ And I enter "Test123456!" as a Password✅ And I click 'Submit' button✅ Then I expect to see 'Home page' screen✅ When I click 'Main menu icon' button✅ Then I expect to see my Username✅ And should be logged in the system
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

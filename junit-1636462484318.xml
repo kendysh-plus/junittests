@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="User profile" timestamp="2021-11-09T14:54:52" time="268.165" tests="3" failures="2" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="User profile"/>
+      <property name="capabilities" value="f3843b6.android.10"/>
+      <property name="featureFile" value=".\features\user-profile.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Edit Username" time="94.694">
+      <failure message="Error: element (&quot;//android.widget.TextView[@text=&quot;Username updated&quot;]&quot;) still not displayed after 5000ms"><![CDATA[Error: element ("//android.widget.TextView[@text="Username updated"]") still not displayed after 5000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitVisibleMsg (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:64:24)
+    at uefaAppPage.msgBox (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:719:29)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/then.steps.js:22:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73]]></failure>
+      <error message="Error: element (&quot;//android.widget.TextView[@text=&quot;Username updated&quot;]&quot;) still not displayed after 5000ms"/>
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I click 'Edit' button✅ Then I expect to see 'Edit profile' screen✅ When I click 'Pencil icon' button✅ And I delete my username✅ And I enter "dinechka70" as new username✅ And I click 'Done' button❗ Then I expect to see message box 'Username updated'⚠️ And I expect the Username to be changed to "dinechka70"
+
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("//android.widget.TextView[@text="Username updated"]") still not displayed after 5000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitVisibleMsg (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:64:24)
+    at uefaAppPage.msgBox (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:719:29)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/then.steps.js:22:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73
+]]></system-err>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Change avatar" time="86.247">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I click 'Edit' button✅ Then I expect to see 'Edit profile' screen✅ When I click 'Change avatar' button✅ Then I expect to see 'Change your avatar' screen✅ When I click on new avatar✅ Then I expect to see Profile screen with new avatar
+✅ And I expect to see message box 'Avatar updated'
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.User profile" name="Check tabs" time="87.173">
+      <failure message="Error: element (&quot;//android.view.View[@content-desc=&quot;Fantasy Football&quot;]&quot;) still not displayed after 10000ms"><![CDATA[Error: element ("//android.view.View[@content-desc="Fantasy Football"]") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitScreen (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:70:24)
+    at uefaAppPage.seeSubTab (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:665:29)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/then.steps.js:18:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73]]></failure>
+      <error message="Error: element (&quot;//android.view.View[@content-desc=&quot;Fantasy Football&quot;]&quot;) still not displayed after 10000ms"/>
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ Given I click 'Main menu icon' button✅ Then I expect to see main menu✅ When I click 'User icon' button✅ Then I expect to see 'Profile' screen✅ When I scroll down to the main tab✅ Then I expect to see 'Overview' tab✅ When I scroll tabs to the last elements
+✅ Then I expect to see 'Achievements' tab✅ And I expect to see 'Badges' tab✅ And I expect to see 'XP leaderboard' tab✅ When I click 'Achievements' tab✅ Then I expect to see 'Recently unlocked' subtab❗ And I expect to see 'Fantasy Football' subtab⚠️ When I scroll subtabs to the last elements
+⚠️ Then I expect to see 'Predictor' subtab
+⚠️ And I expect to see 'Fantasy 5' subtab
+⚠️ And I expect to see 'Live Manager' subtab
+]]></system-out>
+      <system-err><![CDATA[
+Error: element ("//android.view.View[@content-desc="Fantasy Football"]") still not displayed after 10000ms
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:32)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\utils\build\shim.js:270:24)
+    at Element.elementErrorHandlerCallback (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:39:17)
+    at Element.wrapCommandFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+    at Element.elementErrorHandlerCallbackFn (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:24:65)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at Element.waitForDisplayed (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\webdriverio\build\middlewares.js:48:12)
+    at Function.waitScreen (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\helpers\/actionHelpers.js:70:24)
+    at uefaAppPage.seeSubTab (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\src\pages\/uefaApp.page.js:665:29)
+    at World.<anonymous> (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\features\step_definitions\/then.steps.js:18:17)
+    at World.executeSync (D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:38:22)
+    at D:\Project\UEFA\mobile\gaminghub-automated-tests\gaming-hub-app\node_modules\@wdio\sync\build\index.js:69:73
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

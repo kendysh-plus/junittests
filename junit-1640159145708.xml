@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Check rules" timestamp="2021-12-22T09:45:55" time="159.364" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Check rules"/>
+      <property name="capabilities" value="f3843b6.android.10"/>
+      <property name="featureFile" value=".\features\rules.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.Check rules" name="Fantasy Football rules" time="81.317">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ And I click 'Main menu icon' button✅ Given I click 'Fantasy Football' link✅ Then I expect to see 'Fantasy Football' screen✅ When I click '3 dots icon' button✅ Then I expect to see extra menu
+✅ When I click 'Rules' link✅ Then I expect to see 'UEFA Champions League fantasy football rules 2020/21' screen
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-f3843b6.android.10.Check rules" name="Predictor rules" time="78.02">
+      <system-out><![CDATA[
+✅ Given I am Authorized user✅ And I click 'Main menu icon' button✅ Given I click 'Predictor' link✅ Then I expect to see 'Predictor' screen✅ When I click '3 dots icon Predictor' button✅ Then I expect to see extra menu
+✅ When I click 'Rules' link✅ Then I expect to see 'UEFA Champions League Predictor rules' screen
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
