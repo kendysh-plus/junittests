@@ -10,7 +10,7 @@
     <testcase classname="CucumberJUnitReport-plegar2761411718.android.9.gaminghub-release_apk.UCL_Bracket" name="UCL_Bracket.Edit_pick" time="111.312">
       <system-out>
         <![CDATA[
-✅ Given I am Authorized user
+✅ Given I am Authorized userok
 ✅ When I click 'Main menu icon' button
 ✅ And I click 'UCL Bracket' link
 ✅ Then I expect to see loading screen
